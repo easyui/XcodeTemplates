@@ -7,7 +7,7 @@ File Templates &amp; Project Templates
     /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
 
 ![系统文件模板路径](README/系统文件模板路径.png)
-EZ.xctemplate 是我放进入的文件模板（其实只要复制 Cocoa Touch Class.xctemplate模板修改定制成自己的模板）
+EZ.xctemplate 是我放进入的文件模板（其实只要复制 Cocoa Touch Class.xctemplate模板修改定制成自己的模板），你只要复制EZ.xctemplate到系统文件模板路径下就可以直接使用了。
 
 EZ.xctemplate 文件夹下的EZViewControllerObjective-C，EZViewControllerXibObjective-C，EZViewControllerSwift，EZViewControllerXIBSwift是我增加的文件夹，
 
