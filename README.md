@@ -2,7 +2,8 @@
 File Templates &amp; Project Templates
 ***
 ## 文件模板
-* 系统文件模板路径（Xcode7）
+* 系统文件模板路径（Xcode7）:
+
 /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
 
 ![系统文件模板路径](/README/系统文件模板路径.png)
