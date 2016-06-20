@@ -214,23 +214,23 @@ iOS的设置为 com.apple.platform.iphoneos。
 ###自带标识符
 在模板里有自带的宏标识符，由三个下划线当前缀和后缀，可以用来动态生成相应信息。
 
-___VARIABLE_classPrefix:identifier___：新建工程时输入的ClassPrefix 
+\_\_\_VARIABLE_classPrefix:identifier\_\_\_：新建工程时输入的ClassPrefix 
 
-___PACKAGENAME___:工程名 
+\_\_\_PACKAGENAME\_\_\_:工程名 
 
-___FILENAME___:文件名 
+\_\_\_FILENAME\_\_\_:文件名 
 
-___ORGANIZATIONNAME___:组织名 
+\_\_\_ORGANIZATIONNAME\_\_\_:组织名 
 
-___USERNAME___:用户名 
+\_\_\_USERNAME\_\_\_:用户名 
 
-___FULLUSERNAME___:用户名全称 
+\_\_\_FULLUSERNAME\_\_\_:用户名全称 
 
-___DATE___:当天日期 
+\_\_\_DATE\_\_\_:当天日期 
 
-___TIME___:当前时间 
+\_\_\_TIME\_\_\_:当前时间 
 
-___YEAR___:当前年份
+\_\_\_YEAR\_\_\_:当前年份
 
 
 
