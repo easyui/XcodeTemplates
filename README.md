@@ -1,6 +1,8 @@
 # XcodeTemplates
 File Templates &amp; Project Templates
 ***
+***
+
 ## 文件模板
 * 系统文件模板路径（Xcode7）:
 
@@ -109,8 +111,11 @@ Options中得Item0、1、2、3对应下图四个选项：
 
 
 ***
+***
+
 ## 项目模板
 自带的iOS项目模板存放在/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/, 
+
 自定义的模板应该放在 ~/Library/Developer/Xcode/Templates/Project Templates/. 
 
 打开Xcode自带的模板可以看到，每个模板都是一个以xctemplate为后缀的文件夹，每个文件夹下都有一个TemplateInfo.plist的文件，这个文件用来描述模板的各项信息，Xcode会根据此文件来生成模板。我们所说的自定义模板，其实就是配置这个文件。
@@ -122,9 +127,11 @@ TemplateInfo.plist实质上就是一个XML文件，通过定义相关的键值�
 每个模板的唯一ID，比如苹果自带的com.apple.dt.unit.singleViewApplication
 
 **Ancestors**
+
 模板可以继承，可以在此声明需要继承的模板ID。
 
 **Concrete**
+
 用来标识是否显示在新建模板的窗口中。
 
 **Definitions**
@@ -204,6 +211,26 @@ iOS的设置为 com.apple.platform.iphoneos。
 
 
 
+###自带标识符
+在模板里有自带的宏标识符，由三个下划线当前缀和后缀，可以用来动态生成相应信息。
+
+___VARIABLE_classPrefix:identifier___：新建工程时输入的ClassPrefix 
+
+___PACKAGENAME___:工程名 
+
+___FILENAME___:文件名 
+
+___ORGANIZATIONNAME___:组织名 
+
+___USERNAME___:用户名 
+
+___FULLUSERNAME___:用户名全称 
+
+___DATE___:当天日期 
+
+___TIME___:当前时间 
+
+___YEAR___:当前年份
 
 
 
